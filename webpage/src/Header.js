@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function HeaderTab(props) {
     return (
-        <li><a href="">{props.value}</a></li>
+        <li><a href={props.value.link}>{props.value.text}</a></li>
     );
 }
 

@@ -1,0 +1,33 @@
+body{
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-align: justify;
+}
+
+h1, h2, span, .centered {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.inline {
+    display: inline-block;
+    width: 100%;
+}
+
+.left {
+    display: inline-block;
+    height: inherit;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    text-align: right;
+    height: inherit;
+    width: 50%;
+}

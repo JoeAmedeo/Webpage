@@ -1,8 +1,13 @@
 .body {
   font-size: 12px;
+  background: rgba(200, 200, 200, 0.1) !important;
 }
 
 .heading {
   font-size: 18px;
   text-align: center;
+  background: rgba(100, 100, 100, 0.1) !important;
 }
+
+
+/* overriding attributes from bootstrap to make content component create slightly opaque content. */

@@ -11,10 +11,10 @@ class Content extends Component {
                 this.props.entries.map( (entry) =>
                     <div className="panel-default">
                         <div className="panel-heading heading">
-                            {entry.title}
+                            <span>{entry.title}</span>
                         </div>
                         <div className="panel-body body">
-                            {entry.body}
+                            <span>{entry.body}</span>
                         </div>
                     </div>
                 )
